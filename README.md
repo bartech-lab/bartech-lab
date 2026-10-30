@@ -15,9 +15,13 @@ A web app I built to be hard to test: [202 cases](https://github.com/bartech-lab
 
 ## Tools I built
 
-- **[lcw-dashboard](https://github.com/bartech-lab/lcw-dashboard)**: a local crypto dashboard in one Go binary with an embedded frontend. It pages through the whole market ranking at one API credit per 100 coins, records price history locally at no API cost, and sends desktop alerts.
-- **[agents-usage-dashboard](https://github.com/bartech-lab/agents-usage-dashboard)**: one view of usage limits across AI coding assistants (Codex, Kimi, Z-AI, OpenCode Go). A Go rewrite of [AgentsUsageDashboard](https://github.com/konradozog-debug/AgentsUsageDashboard) as a single binary, with no Docker or browser automation.
-- **[dotfiles](https://github.com/bartech-lab/dotfiles)**: my shell setup for macOS and Arch Linux in one idempotent installer, with systemd timers for git auto-sync, heartbeat monitoring and maintenance.
+**[dotfiles](https://github.com/bartech-lab/dotfiles)**: everything my macOS and Arch Linux machines run, from one idempotent installer with a dry-run mode and a doctor command.
+
+- A local LLM server setup: systemd units for a 27B model on one consumer GPU, plus [a proxy](https://github.com/bartech-lab/dotfiles/blob/main/linux/bin/bonsai-cc-proxy.py) that adapts Claude Code and other agent requests to it and gates admission to its shared KV cache, so two large sessions can't crash it. The proxy has 58 tests.
+- Hourly git auto-sync and a heartbeat monitor that reports failed services, with retries and logs.
+- 26 test suites for the scripts, plus shellcheck and syntax checks by shebang.
+
+Smaller: [lcw-dashboard](https://github.com/bartech-lab/lcw-dashboard) (a local crypto dashboard, one Go binary) and [agents-usage-dashboard](https://github.com/bartech-lab/agents-usage-dashboard) (AI assistant usage limits in one view, a Go rewrite of [AgentsUsageDashboard](https://github.com/konradozog-debug/AgentsUsageDashboard)).
 
 ## Volunteering
 
