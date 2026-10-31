@@ -15,6 +15,11 @@ A web app I built to be hard to test: [202 cases](https://github.com/bartech-lab
 
 ## Tools I built
 
+**[intercom-support-assistant](https://github.com/bartech-lab/intercom-support-assistant)**: a Chrome extension in daily use by a multi-brand support team. It signs each reply for the right brand in the customer's language, blocks closing a conversation whose escalation is still open, and alerts on urgent inboxes.
+
+- about 2,280 unit and integration tests in about 15 seconds; each new test must first fail against a deliberate bug
+- a leak scanner, itself tested against planted values, keeps real customer data out of the public code
+
 **[dotfiles](https://github.com/bartech-lab/dotfiles)**: my macOS and Arch Linux setup, from one installer that is safe to re-run. It contains:
 
 - a local LLM server: a 27B model on one consumer GPU, behind [a proxy](https://github.com/bartech-lab/dotfiles/blob/main/linux/bin/bonsai-cc-proxy.py) that keeps two large sessions from crashing it (58 tests)
