@@ -6,7 +6,7 @@ Senior QA engineer. I design end-to-end test suites and the test infrastructure 
 
 **[e2e-casebook](https://github.com/bartech-lab/e2e-casebook)** · [live demo](https://e2e-proving-ground.onrender.com)
 
-A web app I built to be hard to test: [202 cases](https://github.com/bartech-lab/e2e-casebook/tree/main/cases) such as realtime chat with reconnects, offline queues, time zones and DST, payments in frames and accessibility.
+A web app I built to be hard to test: [200+ cases](https://github.com/bartech-lab/e2e-casebook/tree/main/cases) such as realtime chat with reconnects, offline queues, time zones and DST, payments in frames and accessibility.
 
 - The server exposes [72 documented test hooks](https://github.com/bartech-lab/e2e-casebook/blob/main/docs/test-hooks.md) for seeding data, injecting faults and controlling the clock.
 - Each case is solved several ways in Playwright. Every approach is scored against bugs planted into the app, 10 runs per bug, so a test that only sometimes fails doesn't count as a catch.
