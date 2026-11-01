@@ -17,7 +17,7 @@ A web app I built to be hard to test: [200+ cases](https://github.com/bartech-la
 
 **[intercom-support-assistant](https://github.com/bartech-lab/intercom-support-assistant)**: a Chrome extension in daily use by a multi-brand support team. It signs each reply for the right brand in the customer's language, blocks closing a conversation whose escalation is still open, and alerts on urgent inboxes.
 
-- 2,000+ unit and integration tests in about 15 seconds; each new test must first fail against a deliberate bug
+- 2,200+ unit and integration tests in about 15 seconds; each new test must first fail against a deliberate bug
 - a leak scanner, itself tested against planted values, keeps real customer data out of the public code
 
 **[dotfiles](https://github.com/bartech-lab/dotfiles)**: my macOS and Arch Linux setup, from one installer that is safe to re-run. It contains:
@@ -30,7 +30,7 @@ Also: [lcw-dashboard](https://github.com/bartech-lab/lcw-dashboard), a local cry
 
 ## Volunteering
 
-**[Tokens for Good](https://tokensforgood.ai/)**: research on nonprofits' measured impact, run on spare AI capacity. Gold contributor: 200+ contributions, 20M+ tokens, 100% acceptance (2026-10-30).
+**[Tokens for Good](https://tokensforgood.ai/)**: research on nonprofits' measured impact, run on spare AI capacity. Gold contributor: 225 accepted contributions, 100% acceptance (as of 2026-10-30).
 
 ## Contact
 
