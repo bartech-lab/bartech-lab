@@ -30,7 +30,7 @@ Also: [lcw-dashboard](https://github.com/bartech-lab/lcw-dashboard), a local cry
 
 ## Volunteering
 
-**[Tokens for Good](https://tokensforgood.ai/)**: research on nonprofits' measured impact, run on spare AI capacity. Gold contributor: 225 accepted contributions, 100% acceptance (as of 2026-10-30).
+**[Tokens for Good](https://tokensforgood.ai/)**: research on nonprofits' measured impact, run on spare AI capacity. Gold contributor: 263 accepted contributions, 100% acceptance (as of 2026-11-06).
 
 ## Contact
 
