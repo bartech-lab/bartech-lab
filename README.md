@@ -26,8 +26,6 @@ A web app I built to be hard to test: [200+ cases](https://github.com/bartech-la
 - hourly git sync across machines
 - a monitor that reports failed background services
 
-Also: [lcw-dashboard](https://github.com/bartech-lab/lcw-dashboard), a local crypto dashboard in one Go binary, and [agents-usage-dashboard](https://github.com/bartech-lab/agents-usage-dashboard), AI coding assistant usage limits in one view (a Go rewrite of [AgentsUsageDashboard](https://github.com/konradozog-debug/AgentsUsageDashboard)).
-
 ## Volunteering
 
 **[Tokens for Good](https://tokensforgood.ai/)**: research on nonprofits' measured impact, run on spare AI capacity. Gold contributor: 263 accepted contributions, 100% acceptance (as of 2026-11-06).
